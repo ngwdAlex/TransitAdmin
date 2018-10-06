@@ -1,9 +1,22 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php
+
+
+require __DIR__.'/vendor/autoload.php';
+
+use Kreait\Firebase\Factory;
+use Kreait\Firebase\ServiceAccount;
+
+// This assumes that you have placed the Firebase credentials in the same directory
+// as this PHP file.
+$serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/google-service-account.json');
+
+$firebase = (new Factory)
+    ->withServiceAccount($serviceAccount)
+    ->create();
+
+$auth = $firebase->getAuth();
+
+?>
 <html>
     
 
