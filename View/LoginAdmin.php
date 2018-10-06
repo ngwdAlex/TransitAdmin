@@ -30,7 +30,7 @@ and open the template in the editor.
         
         }catch(Exception $ex){
             echo "<p>Unauthorized User</p>";
-            echo '<a href="LoginUser.php">Back to previous page</a>';
+            echo '<a href="LoginAdmin.php">Back</a>';
         }
         ?>
     </body>
