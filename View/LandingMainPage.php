@@ -98,7 +98,37 @@
             <span>Dashboard</span>
           </a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <a class="nav-link" href="ScheduleMainPage.php">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Schedule</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="MonitorMainPage.php">
+            <i class="fas fa-fw fa-check-square"></i>
+            <span>Monitor</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="NotificationMainPage.php">
+            <i class="fas fa-fw fa-exclamation"></i>
+            <span>Notification</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ReportMainPage.php">
+            <i class="fas fa-fw fa-address-book"></i>
+            <span>Report</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="LogoutAdmin.php">
+            <i class="fas fa-fw fa-arrow-alt-circle-right"></i>
+            <span>Logout</span>
+          </a>
+        </li>
+<!--        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
             <span>Pages</span>
@@ -113,7 +143,7 @@
             <a class="dropdown-item" href="404.html">404 Page</a>
             <a class="dropdown-item active" href="blank.html">Blank Page</a>
           </div>
-        </li>
+        </li>-->
 <!--        <li class="nav-item">
           <a class="nav-link" href="charts.html">
             <i class="fas fa-fw fa-chart-area"></i>
@@ -135,7 +165,7 @@
             <li class="breadcrumb-item">
                 <a href="LandingMainPage.php">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Blank Page</li>
+            <li class="breadcrumb-item active">Overview</li>
           </ol>
 
           <!-- Page Content -->
