@@ -165,13 +165,13 @@
             <li class="breadcrumb-item">
                 <a href="LandingMainPage.php">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Overview</li>
+            <li class="breadcrumb-item active">Report</li>
           </ol>
 
           <!-- Page Content -->
-          <h1>Welcome</h1>
+          <h1>Report</h1>
           <hr>
-          <p>Here's today status</p>
+          <p>Create report and View report</p>
 
         </div>
         <!-- /.container-fluid -->
@@ -228,3 +228,4 @@
   </body>
 
 </html>
+

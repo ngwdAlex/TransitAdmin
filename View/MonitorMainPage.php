@@ -165,13 +165,13 @@
             <li class="breadcrumb-item">
                 <a href="LandingMainPage.php">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Overview</li>
+            <li class="breadcrumb-item active">Monitoring</li>
           </ol>
 
           <!-- Page Content -->
-          <h1>Welcome</h1>
+          <h1>Monitor</h1>
           <hr>
-          <p>Here's today status</p>
+          <p>Monitor bus and train line</p>
 
         </div>
         <!-- /.container-fluid -->

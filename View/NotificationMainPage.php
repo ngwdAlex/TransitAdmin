@@ -165,13 +165,13 @@
             <li class="breadcrumb-item">
                 <a href="LandingMainPage.php">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Overview</li>
+            <li class="breadcrumb-item active">Notification</li>
           </ol>
 
           <!-- Page Content -->
-          <h1>Welcome</h1>
+          <h1>Notification</h1>
           <hr>
-          <p>Here's today status</p>
+          <p>Create Notification</p>
 
         </div>
         <!-- /.container-fluid -->
