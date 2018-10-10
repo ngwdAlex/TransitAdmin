@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Main Page</title>
+    <title>Monitor</title>
 
     <!-- Bootstrap core CSS-->
     <link href="../CSS/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.html">TransitPorts</a>
+      <a class="navbar-brand mr-1" href="LandingMainPage.php">TransitPorts</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -49,7 +49,7 @@
 
       <!-- Navbar -->
       <ul class="navbar-nav ml-auto ml-md-0">
-        <li class="nav-item dropdown no-arrow mx-1">
+<!--        <li class="nav-item dropdown no-arrow mx-1">
           <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bell fa-fw"></i>
             <span class="badge badge-danger">9+</span>
@@ -72,7 +72,7 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
+        </li>-->
         <li class="nav-item dropdown no-arrow">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user-circle fa-fw"></i>
@@ -114,6 +114,7 @@
           <a class="nav-link" href="NotificationMainPage.php">
             <i class="fas fa-fw fa-exclamation"></i>
             <span>Notification</span>
+            
           </a>
         </li>
         <li class="nav-item">
@@ -122,12 +123,7 @@
             <span>Report</span>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="LogoutAdmin.php">
-            <i class="fas fa-fw fa-arrow-alt-circle-right"></i>
-            <span>Logout</span>
-          </a>
-        </li>
+        
 <!--        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
@@ -165,13 +161,13 @@
             <li class="breadcrumb-item">
                 <a href="LandingMainPage.php">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Monitoring</li>
+            <li class="breadcrumb-item active">Monitor</li>
           </ol>
 
           <!-- Page Content -->
-          <h1>Monitor</h1>
+          <h1>Welcome</h1>
           <hr>
-          <p>Monitor bus and train line</p>
+          <p>Here's today status</p>
 
         </div>
         <!-- /.container-fluid -->
@@ -209,7 +205,7 @@
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-primary" href="LoginAdmin.php">Logout</a>
           </div>
         </div>
       </div>
