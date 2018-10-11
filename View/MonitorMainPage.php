@@ -23,6 +23,26 @@
     <!-- Custom styles for this template-->
     <link href="../CSS/css/sb-admin.css" rel="stylesheet">
 
+    <!--OpenLayer Map CSS-->
+    <link href="../CSS/ol.css" rel="stylesheet" type="text/css">
+    <style>
+        .map {
+            height: 650px;
+            width: 100%;
+        }
+        
+        #marker {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #088;
+        border-radius: 10px;
+        background-color: #0FF;
+        opacity: 0.5;
+      }
+    </style>
+    
+    <!--OpenLayer JavaScript-->
+    <script src="../CSS/js/ol.js"></script>
   </head>
 
   <body id="page-top">
@@ -165,9 +185,36 @@
           </ol>
 
           <!-- Page Content -->
-          <h1>Welcome</h1>
+          <h1>Monitor</h1>
           <hr>
-          <p>Here's today status</p>
+          <div id="map" class="map"></div>
+            <script type="text/javascript">
+              var map = new ol.Map({
+                target: 'map',
+                layers: [
+                  new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                  })
+                ],
+                view: new ol.View({
+        //            coordinate is Y, X
+                  center: ol.proj.fromLonLat([101.72, 3.19]),
+                  zoom: 14
+                  //center: ol.proj.fromLonLat([101.7149225,3.2037204]),
+                  //zoom: 18
+                })
+              });
+                  //not working
+//                var pos = fromLonLat([101.7149225,3.2037204]);
+//                var markerWangsaMajuLRT = new Overlay({
+//                position: pos,
+//                positioning: 'center-center',
+//                element: document.getElementById('marker'),
+//                stopEvent: false
+//              });
+//              map.addOverlay(marker);
+
+            </script>
 
         </div>
         <!-- /.container-fluid -->
