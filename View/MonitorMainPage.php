@@ -212,7 +212,8 @@
 //                element: document.getElementById('marker'),
 //                stopEvent: false
 //              });
-//              map.addOverlay(marker);
+//              map.addOverlay(markerWangsaMajuLRT);
+
 
             </script>
 

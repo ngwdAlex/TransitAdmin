@@ -4,14 +4,16 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/xampp/htdocs/TransitAdmin/View/LandingMainPage.php</file>
-            <file>file:/D:/xampp/htdocs/TransitAdmin/Control/LoginControl.php</file>
+            <file>file:/D:/xampp/htdocs/TransitAdmin/View/blank.html</file>
             <file>file:/D:/xampp/htdocs/TransitAdmin/View/MonitorMainPage.php</file>
-            <file>file:/D:/xampp/htdocs/TransitAdmin/CSS/js/ol.js</file>
             <file>file:/D:/xampp/htdocs/TransitAdmin/View/LogoutAdmin.php</file>
             <file>file:/D:/xampp/htdocs/TransitAdmin/View/NotificationMainPage.php</file>
             <file>file:/D:/xampp/htdocs/TransitAdmin/View/ScheduleMainPage.php</file>
             <file>file:/D:/xampp/htdocs/TransitAdmin/View/ReportMainPage.php</file>
+            <file>file:/D:/xampp/htdocs/TransitAdmin/View/RouteReport.php</file>
+            <file>file:/D:/xampp/htdocs/TransitAdmin/View/DriverReport.php</file>
             <file>file:/D:/xampp/htdocs/TransitAdmin/View/LoginAdmin.php</file>
+            <file>file:/D:/xampp/htdocs/TransitAdmin/View/index.html</file>
         </group>
     </open-files>
 </project-private>

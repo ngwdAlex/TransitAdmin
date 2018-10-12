@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Report</title>
+    <title>Driver Report</title>
 
     <!-- Bootstrap core CSS-->
     <link href="../CSS/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -161,47 +161,41 @@
             <li class="breadcrumb-item">
                 <a href="LandingMainPage.php">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Report</li>
+            <li class="breadcrumb-item">
+                <a href="ReportMainPage.php">Report</a>
+            </li>
+            <li class="breadcrumb-item active">Driver Report</li>
           </ol>
 
           <!-- Page Content -->
-          <h1>Report</h1>
+          <h1>Driver Report</h1>
           <hr>
-          <!-- Icon Cards-->
-          <div class="row">
-            <div class="col-xl-3 col-sm-6 mb-3">
-              <div class="card text-white bg-primary o-hidden h-100">
-                <div class="card-body">
-                  <div class="card-body-icon">
-                    <i class="fas fa-fw fa-road"></i>
-                  </div>
-                  <div class="mr-5">Route Report</div>
-                </div>
-                  <a class="card-footer text-white clearfix small z-1" href="RouteReport.php">
-                  <span class="float-left">View Report</span>
-                  <span class="float-right">
-                    <i class="fas fa-angle-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-            <div class="col-xl-3 col-sm-6 mb-3">
-              <div class="card text-white bg-warning o-hidden h-100">
-                <div class="card-body">
-                  <div class="card-body-icon">
-                    <i class="fas fa-fw fa-bus-alt"></i>
-                  </div>
-                  <div class="mr-5">Driver Report</div>
-                </div>
-                  <a class="card-footer text-white clearfix small z-1" href="DriverReport.php">
-                  <span class="float-left">View Report</span>
-                  <span class="float-right">
-                    <i class="fas fa-angle-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
+          
+          <p>Select month and year</p>
+          <select name="monthSelect">
+              <option value="">Month</option>
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+          </select>
+          <select name="yearSelect">
+              <option value="">Year</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+          </select>
+          <button type="submit">Search</button>
 
         </div>
         <!-- /.container-fluid -->
