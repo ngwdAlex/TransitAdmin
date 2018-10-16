@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
   <head>
 
     <meta charset="utf-8">
@@ -19,7 +19,10 @@
 
     <!-- Custom styles for this template-->
     <link href="../CSS/css/sb-admin.css" rel="stylesheet">
-
+    
+    <!--Firebase JavaScript-->
+    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+    
   </head>
 
   <body class="bg-dark">
@@ -28,7 +31,7 @@
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Login</div>
         <div class="card-body">
-          <form>
+            <form>
             <div class="form-group">
               <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
@@ -49,11 +52,12 @@
                 </label>
               </div>
             </div>-->
-            <a class="btn btn-primary btn-block" href="../View/LandingMainPage.php">Login</a>
+            
+          <a class="btn btn-primary btn-block" id="btnLogin">Login</a>
           </form>
           <div class="text-center">
             <!--<a class="d-block small mt-3" href="register.html">Register an Account</a>-->
-            <a class="d-block small" href="ForgotPassword.php">Forgot Password?</a>
+            <a class="d-block small" href="ForgotPassword.php" id="btnForgotPassword">Forgot Password?</a>
           </div>
         </div>
       </div>
@@ -66,6 +70,8 @@
     <!-- Core plugin JavaScript-->
     <script src="../CSS/vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <!-- Authenticate Firebase JavaScript-->
+    <script src="../Control/AuthenticateFirebase.js"></script>
   </body>
 
 </html>

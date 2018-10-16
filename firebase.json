@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "LoginAdmin.php",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
