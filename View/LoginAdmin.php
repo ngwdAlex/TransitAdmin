@@ -20,18 +20,33 @@
     <!-- Custom styles for this template-->
     <link href="../CSS/css/sb-admin.css" rel="stylesheet">
     
-    <!--Firebase JavaScript-->
-    <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script>
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD4yBwQEfvjd-S9shlCvZap5E7SjQOQ1NE",
+        authDomain: "transitports-ee351.firebaseapp.com",
+        databaseURL: "https://transitports-ee351.firebaseio.com",
+        projectId: "transitports-ee351",
+        storageBucket: "transitports-ee351.appspot.com",
+        messagingSenderId: "1015664105253"
+      };
+      firebase.initializeApp(config);
+    </script>
+    
     
   </head>
 
   <body class="bg-dark">
-
-    <div class="container">
+    <?php
+    if ((!isset($_POST['inputEmail'])) || !isset($_POST['inputPassword'])) {
+    ?>
+    <div class="container" id="loginInterface">
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Login</div>
         <div class="card-body">
-            <form>
+            <form method="post" action="LoginAdmin.php">
             <div class="form-group">
               <div class="form-label-group">
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
@@ -53,7 +68,7 @@
               </div>
             </div>-->
             
-          <a class="btn btn-primary btn-block" id="btnLogin">Login</a>
+          <a class="btn btn-primary btn-block" id="btnLogin" type="submit">Login</a>
           </form>
           <div class="text-center">
             <!--<a class="d-block small mt-3" href="register.html">Register an Account</a>-->
@@ -62,6 +77,24 @@
         </div>
       </div>
     </div>
+      <?php
+    } else{
+        $email = trim($_POST['inputEmail']);
+        $pass = trim($_POST['inputPassword']);
+                  
+          if(!$email || !$pass){
+              return console.log('email and password required');
+          }
+                 
+          try{
+              firebase.auth().signInWithEmailAndPassword($email, $pass);
+          }catch (Exception $ex){
+              $ex->getMessage();
+          }
+          }
+    
+      ?>
+      
 
     <!-- Bootstrap core JavaScript-->
     <script src="../CSS/vendor/jquery/jquery.min.js"></script>
@@ -71,7 +104,7 @@
     <script src="../CSS/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Authenticate Firebase JavaScript-->
-    <script src="../Control/AuthenticateFirebase.js"></script>
+<!--    <script src="../Control/AuthenticateFirebase.js"></script>-->
   </body>
 
 </html>
