@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "transitports-ee351",
+  "private_key_id": "ff3793a676d72606a83bf26b19e0c2628625deed",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDd55SGCUzcV+9H\nVKJEA1HJrDDEEuHm5eHu7cRPEYLfufjP9NrDKz3cS8Cfk8RUff6v6986f2+cQbOr\n3O6yAVxAMKlNSB1nGKkdz3Yw6PQ6b5Q4fcGCuxgs+Z8hpacuLNA+vuWt/qy8V9PP\nDP6r7pssw1aSIzKB7uz0TkBmuDwS7HV7mXJ4Mqn2TbPaRUQaosd2KXGve0Pj1BI3\nipxAasRjbvZSKOhUeMzBzJdLH7l//SbL/e0mFK0OXm+s/L/sDkxWgzI2YoILt4zz\nfOTExyQfhPrU8SFApAd3tIrn/jLvvLJxvH/hdHgbCaedl7k+TP8I5D+8IGIPcWQn\ndZTBm1/dAgMBAAECggEAEERU9LNzVTbEBW5cm9BDe116ULFSqpbBBn8bFDHELorn\nRLVeIQ8HMKJD+169dnUrCbHokhT79VAyr99ZBycG4HTAwHfQIfnikdsevqyhFLSP\nwMllOWRmPAvLgM+wLvgdhu//Dc980ay9i/DXrXpnGTOzobBfWDuP1sPywCTy0G8u\npCqYjvgBRHDYMN1uz65aFV0d/anT2I83lnnzX3gliW2CTjxgIJGFeVB4vK4UUXcf\nEXAwDLq6N4jPVEBkQkkNlKjDEXo/X3GM/cKJoqfac1PwJoc6PVe9zJdLpUoG06I5\n9v/l4wjMn5azmy3jK0SsqmpijQLNPnHG/fOx+DE5iQKBgQD0LJSJXtPJLJA9aVvq\nLuxcRk4vlH2RMPeQ7Uy95xtreuBtNOH9tmeX113gcDAcm5HWx6LVATV/ZrTn1omy\nlSAYycAHylF9ijoMBspBMVEgpyF9ngZeKhVFaZ8YRd2cejxp4M4KWzOk2/wl8+SE\nKkTzr2ELdE6mT4wawRBoHnwz1QKBgQDopuODyQ07KgyBcmI1SzS7lZGtg+83j3Zw\n3hhqmi9PBRbNcNjBMMGOEn5FZqKq8bDPKvzszNd0Z61tgtTpXKszf6K+Bnx6I11E\n2sP2aZC7HICqGLk+tU+57KsW3rsqKN9vF+LPDHwEh1TYpUOpLjQJG1n9OmmPB4ZB\nFqR7hR/n6QKBgGcBc3vr/A4O9Z5ilvrY5q8anZsm2j3o2VdTNB+cog2aXZjUSU3d\nqB//I8Qtr64x1rkzqLaQ9v+S1VhEQfyLOmoamh7vM6dxK4GtT59m7aGHv/IdOvR4\nblbE8u+rcYy0aE4GHwVxafzvLJTaKZmztzjR0G+jlhZE0obq0UALNDwtAoGADo0Z\nn818YV3w6EvCLrkkdDMXqHWfCaeUbdzGRCyelt+nnHPZasPk50Dq2uZfeDejqmFy\n7lCljSdK5pWPQYVFQ/RQtnfrYyxBEiRoq0nQ/pL6zSi8tVpbwTI3RTfrFuj1iJpC\n2lZaj2HzgZVclQFJyeQHDdqQbZy33exPn1YlN7kCgYEAnUpV8BW5R7izfMRs5KYL\nakeGV2YVXRg9V52DVtZvfQGJhmyaFPE0RQFB1Ij+Cd/SFsvODFu1L9grdx1iQDsr\npYxJvIF32rAvrQC0rPyXKZxiJ9qaQohIJtJ7m/KAqd7nGyxmBq3cmjkAm520RBcp\n4DCwqOB801cJl2tKxfLK8Ac=\n-----END PRIVATE KEY-----\n",
+  "client_email": "transitports-ee351@appspot.gserviceaccount.com",
+  "client_id": "108299106675402182680",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/transitports-ee351%40appspot.gserviceaccount.com"
+}
